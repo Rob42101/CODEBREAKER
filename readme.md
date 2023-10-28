@@ -22,6 +22,7 @@ Python dependencies have been kept to a minimum, but in order to have more of an
 authentic experience, I have use the Terminal class object from the `blessed` library.
 
 For more information on that, please use these links:
+
 https://pypi.org/project/blessed/
 https://blessed.readthedocs.io/en/latest/terminal.html
 
