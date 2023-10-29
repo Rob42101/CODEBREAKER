@@ -72,4 +72,42 @@ in your feedback to the AI guess of your secret code.
 So far (as of the date of this document) this game has only been run on a Linux based OS and
 as such, I can't say for sure if it will work correctly on a MS Windows system.
 
+### Extras
+
+Because this is a challenging game, at first, you may find it hard to concentrate on both
+working out what your next best guess should be, as well as working out what your correct
+response should be to the AI best guess. Getting this wrong, will result in you being accused
+of cheating, at which point you will forfeit the game. As this can be a source of frustration,
+I have provided a small helper script, that will provide the correct response for any given
+secret code/guess combination.
+
+My understanding is that with the original game, the order in which the feedback symbols
+are entered, is unimportant (so, `++*-` is as good as `*++-`). This has been retained in
+my implementation of the game, but a purest will tell you that the order should always be
+entered as `*` `+` `-` as the priority order. 
+
+
+### Game play hints and tips
+
+If you wait for the AI first best guess, before you decide on what your secret code will be,
+you can gain a slight advantage by basing your code on the AI first best guess.
+
+As an example, if the AI first best guess happens to be `ECEC`, then make sure that you
+choose a secret code that contains one of those letters, in the correct position, because,
+if it does not, your response will have to be `----`, in which case the AI can completely
+rule out both the `C` and the `E` from its search space and with only six letters
+(at the ROOKIE level), this means that the AI will only have to include the remaining four
+letters in any subsequent best guess, making it much easier to find your secret code.
+
+Likewise, if you have to respond with `+---` (one correct letter, in the wrong place), then
+the AI knows that there can't be a `E` at positions one or three, and there can't be a `C`
+at positions two or four, but there is definitely a `C` at either p1 or p3, or there is
+definitely a `E` at p2 or p4.
+
+A response of `*---`, on the other hand (one correct letter, in the correct position) would
+give away as little information as possible, because all that the AI would know is that
+there is one correct letter, but (at this stage) it will have no clear idea about which
+letter is correct or at which position said letter will be.
+
+### In closing
 Please enjoy. If you have any comments or feedback, please use this channel.
