@@ -270,7 +270,7 @@ def play(lvl, rnds, search_space):
         print()
         if rounds == rnds:
             output("    IT'S A DRAW!\n")
-            output(f"    YOU WERE LOOKING FOR {code}\n")
+            output(f"    YOU WERE LOOKING FOR {ai_code}\n")
             break
     # =======<END>======= #
 
