@@ -113,9 +113,13 @@ letter is correct or at which position said letter will be.
 
 So far as I can tell, when the original game was run and a level of play had been chosen,
 the player was then committed to that level, until a machine `RESET` signal was sent, at
-which point the game could once again be run, without the need for a reload. This is where
-my implementation diverges, in so much as, once a game has been concluded, you will see
-the game menu displayed, from which you can choose whatever level of play you wish and the
-game scores will continue to accumulate.
+which point the game could once again be run, at the same level, or a different level.
+
+This is where my implementation diverges, in so much as; once a game has been concluded, you
+will see the game menu displayed, rather than simply starting a new game, at the same level. 
+From there, you can choose whatever level of play you wish and the game scores will continue
+to accumulate.
+
+Please enjoy. If you have any comments or feedback, please use this channel.
 
 Please enjoy. If you have any comments or feedback, please use this channel.
