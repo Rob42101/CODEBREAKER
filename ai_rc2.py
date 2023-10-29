@@ -1,5 +1,6 @@
 """for release candidate two of CODEBREAKER"""
 
+
 def best_guess(**kwargs):
     """generate and return the AI best guess"""
     if kwargs["first_guess"]:
@@ -83,10 +84,10 @@ def first_guess(ltrs):
 
     # get two, none repeating, integer values between 0 and 5
     # used to index into the ltrs list
-    L1 = randint(0, len(ltrs)-1)
+    L1 = randint(0, len(ltrs) - 1)
     L2 = L1
     while L2 == L1:
-        L2 = randint(0, len(ltrs)-1)
+        L2 = randint(0, len(ltrs) - 1)
 
     # assign a letter to its placeholder
     x = ltrs[L1]
