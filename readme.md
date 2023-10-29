@@ -121,5 +121,3 @@ From there, you can choose whatever level of play you wish and the game scores w
 to accumulate.
 
 Please enjoy. If you have any comments or feedback, please use this channel.
-
-Please enjoy. If you have any comments or feedback, please use this channel.
