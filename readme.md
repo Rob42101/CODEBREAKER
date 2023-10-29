@@ -120,4 +120,5 @@ will see the game menu displayed, rather than simply starting a new game, at the
 From there, you can choose whatever level of play you wish and the game scores will continue
 to accumulate.
 
-Please enjoy. If you have any comments or feedback, please use this channel.
+Please enjoy. If you have any comments or feedback, please use this channel, or you can PM me
+(rob101) at the [Applefritter.com](https://www.applefritter.com/) website.
