@@ -97,14 +97,14 @@ def display_scores():
 def get_hguess(level):
     """
     get human code guess and return a string object
-    takes one augment: level  
+    takes one augment: level
     level must contain 0 1 or 2 as a string object
     """
 
     # y is the column and x is the row
     # format the term.move() as y, x
     # don't forget the end='' option, as in: print(term.move(x, y), end='')
-    if level not in ("0","1","2"):
+    if level not in ("0", "1", "2"):
         print(get_hguess.__doc__)
         return False
     ltrs = ["A", "B", "C", "D", "E", "F"]
@@ -188,7 +188,7 @@ def get_hresp():
 
 
 def i_win(code):
-    """to do"""
+    """display the I WIN message. update and display scores"""
     output("    I WIN!\n")
     output(f"    YOU WERE LOOKING FOR {code}\n")
     SCORES["ME"] += 1
@@ -197,7 +197,7 @@ def i_win(code):
 
 
 def u_win():
-    """to do"""
+    """display the YOU WIN message. update and display scores"""
     output("    YOU WIN!\n")
     SCORES["YOU"] += 1
     display_scores()
@@ -277,6 +277,7 @@ def play(lvl, rnds, search_space):
 
 # =======<ROOT>======= #
 SCORES = {"YOU": 0, "ME": 0}
+
 ESCAPE_KEY = "\x1b"
 TERM = Terminal()
 cls()
