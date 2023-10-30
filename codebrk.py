@@ -132,7 +132,7 @@ def get_hguess(level):
 
 
 def ai_analyse(ltrs, resp, s_sp, p_mx):
-    """analyse the the human player feedback
+    """analyse the human player feedback
     return a new search_space and positions matrix
     usage:
         ltrs = the AI best guess
