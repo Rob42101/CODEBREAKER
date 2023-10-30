@@ -209,7 +209,7 @@ def play(lvl, rnds, search_space):
     rounds = 0
     ai_guess_log = {}
     # build the positions matrix
-    positions = {  # holds all 6 letters at all 4 positions: the starting condition
+    positions = {  # holds all letters at all 4 positions: the starting condition
         0: "",
         1: "",
         2: "",
