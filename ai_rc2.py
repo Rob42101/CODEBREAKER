@@ -1,4 +1,4 @@
-"""for release candidate two of CODEBREAKER"""
+"""support module for the codebrk.py app Codebreaker RC2"""
 
 
 def best_guess(**kwargs):
@@ -76,14 +76,12 @@ def first_guess(ltrs):
         AABB
         ABAB
         ABBA
-    where A and B are random letters between A and F
+    where A and B are random letters from the associated search space
     """
     from random import randint
 
-    # ltrs = ["A", "B", "C", "D", "E", "F"]
-
     # get two, none repeating, integer values between 0 and 5
-    # used to index into the ltrs list
+    # these values are used to index into the ltrs list; the search space
     L1 = randint(0, len(ltrs) - 1)
     L2 = L1
     while L2 == L1:
@@ -94,7 +92,7 @@ def first_guess(ltrs):
     y = ltrs[L2]
 
     # use the placeholders to generate the three preferred patterns,
-    # choose one at random and return it
+    # choose one pattern at random and return it
     patterns = {0: [x, x, y, y], 1: [x, y, x, y], 2: [x, y, y, x]}
     pattern = randint(0, 2)
     fg = "".join(patterns[pattern])
