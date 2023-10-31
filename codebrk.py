@@ -294,4 +294,5 @@ while True:
     elif OPT == "2":
         SEARCH_SPACE = ["A", "B", "C", "D", "E", "F", "G", "H"]
         RNDS = 8
-    play(OPT, RNDS, SEARCH_SPACE)
+    if OPT != "H":
+        play(OPT, RNDS, SEARCH_SPACE)
