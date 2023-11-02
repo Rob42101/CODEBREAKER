@@ -44,7 +44,7 @@ To exit the game, press the `Esc` key at this point. At no other point in the ga
 
 The code has been thoroughly tested (10,000+ simulated games) and contains no known bugs. As such, if you are accused of "cheating", I am as sure as I can be that you will have made some error in your feedback to the AI guess of your secret code.
 
-So far (as of the date of this document) this game has only been run on a Linux based OS and as such, I can't say for sure if it will work correctly on a MS Windows system.
+So far (as of the date of this document) this game has only been run on a Linux based OS, running Python v3.8.10 and as such, I can't say for sure if it will work correctly on a MS Windows system or with earlier Python versions.
 
 
 ### Extras
