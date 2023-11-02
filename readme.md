@@ -75,3 +75,8 @@ So far as I can tell, when the original game was run and a level of play had bee
 This is where my implementation diverges, in so much as; once a game has been concluded, you will see the game menu displayed right away, rather than simply starting a new game, at the same level. From there, you can choose whatever level of play you wish and the game scores will continue to accumulate.
 
 Please enjoy. If you have any comments or feedback, please use this channel, or you can PM me (rob101) at the [Applefritter.com](https://www.applefritter.com/) website.
+
+---
+
+### Updates and Feedback
+This code has now been tested with Python v3.6.15
