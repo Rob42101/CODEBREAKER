@@ -79,4 +79,6 @@ Please enjoy. If you have any comments or feedback, please use this channel, or 
 ---
 
 ### Updates and Feedback
-This code has now been tested with Python v3.6.15
+This code has now been tested with Python v3.6.15 as well as v3.10.12
+
+This code has also been tested on a MS Windows 10 machine (Python version unknown), with no reported issues. My thanks to user "johnywhy" of python-forum.io for running that test for me.
